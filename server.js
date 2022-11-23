@@ -7,6 +7,6 @@ app.use(cors())
 
 app.use(express.static(`${__dirname}/public`))
 
-app.listen(4000,
-   () => console.log(`server running on 4000`)
+app.listen(4004,
+   () => console.log(`server running on 4004`)
 )
